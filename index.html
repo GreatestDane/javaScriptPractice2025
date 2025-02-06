@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>JavaScript Practice</title>
 </head>
 <body>
@@ -18,21 +20,21 @@
         <br>
         <img src="https://images.squarespace-cdn.com/content/v1/56da5bfc62cd9436990d7beb/1487797005489-NG9MX05MDDBP7IYY4TBU/image-asset.jpeg?format=2500w" 
         alt="image not found"
-        width="350px"
-        height="500px">
+        width="100px"
+        height="100px">
 
-        <table>
-            <tr>
+        <table id="users-table">
+            <tr class="table-row">
                 <th>First Name</th>
                 <th>Last Name</th>
                 <th>Occupation</th>
             </tr>
-            <tr>
+            <tr class="table-row">
                 <td>Bobby</td>
                 <td>Brown</td>
                 <td>Professional <del>Killer</del> Singer</td>
             </tr>
-            <tr>
+            <tr class="table-row">
                 <td>Dane</td>
                 <td>Goodman</td>
                 <td>Professional Guy</td>
@@ -53,5 +55,33 @@
             <li>Hot Dog</li>
             <li>Burrito</li>
         </ul>
+
+        <form data-test-id="login-form">
+            first Name<br>
+            <input type="text" placeholder="First Name Here...">
+            <br>
+            Last Name<br>
+            <input type="text" placeholder="Last Name Here...">
+            <br>
+            Age<br>
+            <input type="number" placeholder="Enter Your Age">
+            <br>
+            <input type="submit" value="submit">
+        </form>
+        
+        <!-- This is the button to open the modal -->
+         <br>
+         <button id="openModal">OPEN MODAL</button>
+
+        <!-- This is the actual modal -->
+         <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span id="closeModal" class="close">&times;</span>
+                <h2>MODAL TITLE</h2>
+                <p>Modal Content</p>
+            </div>
+         </div>
+
+         <script src="javascript/index.js"></script>
 </body>
 </html>
