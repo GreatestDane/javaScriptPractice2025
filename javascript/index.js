@@ -4,6 +4,8 @@ console.log(`hello ${world}`);
 
 console.log(`Is this saving?`);
 
+console.log('Now what?');
+
 $(document).ready(function() {
     // Open the modal when the button is clicked
     $('#openModal').click(function() {
