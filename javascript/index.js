@@ -4,7 +4,7 @@ console.log(`hello ${world}`);
 
 console.info(`Is this saving?`);
 
-console.warn('Now what?');
+console.warn('WARNING! If this commit doesn\' go to Github, I\'m going to lose it!');
 
 
 
