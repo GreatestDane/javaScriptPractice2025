@@ -2,9 +2,9 @@ let world = "world";
 
 console.log(`hello ${world}`);
 
-console.log(`Is this saving?`);
+console.info(`Is this saving?`);
 
-console.log('Now what?');
+console.warn('Now what?');
 
 
 
